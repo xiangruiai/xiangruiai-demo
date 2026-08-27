@@ -236,7 +236,7 @@ function bakeDesk() {
   d.lineWidth = 2.5;
   d.strokeRect(-MW / 2, -MH / 2, MW, MH);
   d.fillStyle = "rgba(225,235,210,.75)";
-  d.font = "500 15px Inter, sans-serif";
+  d.font = "500 15px 'DM Mono', monospace";
   d.textAlign = "center";
   for (let i = 1; i < 19; i++) {
     d.fillText(String(i * 10), -MW / 2 + i * cell, -MH / 2 + 30);
